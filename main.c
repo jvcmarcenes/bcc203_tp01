@@ -1,8 +1,6 @@
-#include <stdio.h>
+#include "gerador.h"
 
-int main() {
-
-	printf("Hello World\n");
-
-	return 0;
+int main(){
+    criarquivo();
+    return 0;
 }
