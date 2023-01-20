@@ -8,3 +8,7 @@ typedef struct{
 }Chave;
 
 void criarquivo();
+
+void salvarEmArquivo2(int i, Chave *arquivo);
+
+void lerDoArquivo2(int i, Chave *arquivo);
