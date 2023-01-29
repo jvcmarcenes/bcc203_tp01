@@ -1,17 +1,23 @@
+#ifndef gerador_h
+#define gerador_h
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
 
-typedef struct{
+typedef struct Registro{
     int chave;
     long int dado1;
     char dado2[5000]; 
-}Chave;
+}Registro;
 
-void criarquivo();
+void escreveArq(Registro* dado);
 
-void salvarEmArquivo(int i, Chave *arquivo);
+int criarquivo();
 
-void lerDoArquivo(int i, Chave *arquivo);
+void salvarEmArquivo(int i, Registro *arquivo);
 
-void retchave(Chave *arquivo, int i, int aux);
+void lerDoArquivo(int i, Registro *arquivo);
+
+void retchave(Registro *arquivo, int i, int aux);
+
+#endif
