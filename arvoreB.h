@@ -1,7 +1,7 @@
 #ifndef arvoreB_h
 #define arvoreB_h
 
-#include "CriaArq.h"
+#include "gerador.h"
 #include <stdbool.h>
 //MM == 2m, ou seja, árvore B de ordem 2 => MM = 4
 //100 == 2m, m = 50 => ordem 50
