@@ -1,6 +1,6 @@
 #ifndef arvoreBinExt_h
 #define arvoreBinExt_h
-#include "CriaArq.h"
+#include "gerador.h"
 
 typedef struct
 {
